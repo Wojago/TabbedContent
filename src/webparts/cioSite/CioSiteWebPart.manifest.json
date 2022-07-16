@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b3afc858-1774-4995-9af3-74c3fa9c7184",
+  "alias": "CioSiteWebPart",
+  "componentType": "WebPart",
+
+ 
+  "version": "*",
+  "manifestVersion": 2,
+
+ 
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "CIOSite" },
+    "description": { "default": "CIOSite description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "CIOSite"
+    }
+  }]
+}
